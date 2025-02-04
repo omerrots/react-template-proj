@@ -1,0 +1,76 @@
+.season-clock {
+	font-family: "Times New Roman", Times, serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	color: #fff;
+	width: 250px;
+	height: 250px;
+	border: 1px solid #000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	display: block;
+}
+
+.season-image {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center; /* Centers horizontally */
+	align-items: center;
+	overflow: hidden;
+}
+img {
+	width: 100%; /* Makes the image responsive */
+	height: 100%; /* Makes the image responsive */
+	object-fit: cover; /* Ensures the image covers the container and is cropped if necessary */
+}
+
+h4 {
+	font-weight: 800;
+}
+
+.winter {
+	color: #000;
+	background-color: rgb(173, 216, 228);
+}
+
+.winter-dark {
+	color: #fff;
+	background-color: rgb(20, 83, 178);
+}
+
+.spring {
+	color: #000;
+	background-color: rgb(79, 236, 12);
+}
+.spring-dark {
+	color: #fff;
+	background-color: rgb(52, 148, 11);
+}
+
+.summer {
+	color: #000;
+	background-color: rgb(252, 248, 6);
+}
+.summer-dark {
+	color: #fff;
+	background-color: rgb(202, 190, 15);
+}
+
+.autumn {
+	color: #000;
+	background-color: rgb(69, 143, 204);
+}
+.autumn-dark {
+	color: #fff;
+	background-color: rgb(8, 24, 114);
+}
